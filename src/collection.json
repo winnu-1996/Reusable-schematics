@@ -1,0 +1,14 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "pt-reusables-schematic": {
+      "description": "A blank schematic.",
+      "factory": "./pt-reusables-schematic/index#pTReusablesSchematic",
+      "schema": "./pt-reusables-schematic/schema.json"
+    },
+    "create-component": {
+      "description": "A blank schematic.",
+      "factory": "./create-component/index#createComponent"
+    }
+  }
+}
