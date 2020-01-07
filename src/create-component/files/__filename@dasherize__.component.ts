@@ -8,4 +8,3 @@ styleUrls: ['./<%= dasherize(filename) %>.component.scss']
 })
 
 export class <%= classify(filename) %>Component implements OnInit {
-

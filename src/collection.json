@@ -9,6 +9,15 @@
     "create-component": {
       "description": "A blank schematic.",
       "factory": "./create-component/index#createComponent"
+    },
+    "schematic-resuables": {
+      "description": "A blank schematic.",
+      "factory": "./schematic-resuables/index#schematicResuables",
+      "schema": "./schematic-resuables/schema.json"
+    },
+    "create-reusable-comp": {
+      "description": "A blank schematic.",
+      "factory": "./create-reusable-comp/index#createReusableComp"
     }
   }
 }
